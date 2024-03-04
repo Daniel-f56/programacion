@@ -2,9 +2,9 @@ package characters;
 
 public class Character {
     String name;
-        String occupation;
-        int age;
-        String phrase;
+    String occupation;
+    int age;
+    String phrase;
 
         public Character(String name, String occupation, int age, String phrase) {
             this.name = name;
