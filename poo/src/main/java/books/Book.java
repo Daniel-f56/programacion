@@ -17,7 +17,17 @@ public class Book {
         this.available = true;
     }
     
+    public String titleBook(){
+        return title;
+    }
     
+    public int idBook(){
+        return id;
+    }
+    
+    public int quantityBook(){
+        return quantity;
+    }
     
     public void lendBook(){
         this.available = false;
